@@ -1,0 +1,4 @@
+vendor/*
+src/bin/nohup.out
+src/config/philip.pid
+src/config/philip-config.php

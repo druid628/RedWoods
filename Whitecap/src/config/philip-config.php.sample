@@ -1,0 +1,19 @@
+<?PHP
+
+$philipConfig = array(
+    "hostname"      => "irc.freenode.net",
+    "servername"    => "blueshamrock.com",
+    "port"          => 6667,
+    "username"      => "bsd-sismo",
+    "realname"      => "blue shamrock development Sismo IRC Bot",
+    "nick"          => "blueshamrock-sismo",
+    "channels"      => array( '#bsd-ci'  ),
+    "admins"        => array(  'druid628' ),
+    "debug"         => false,
+    "log"           => __DIR__ . '/../logs/philip.log',
+    "write_pidfile" => true,
+    "pidfile"       => __DIR__ . '/philip.pid',
+);
+
+
+

@@ -1,0 +1,25 @@
+* 0cc6efc (N) - (HEAD -> master, origin/master, origin/HEAD) Adds stillmaintained status (2012-11-27) <Micah Breedlove>
+* e99168a (N) - cosmetic code cleanup (2012-11-21) <Micah Breedlove>
+* 297aa99 (N) - update to verify file exists on philip:stop (2012-11-21) <Micah Breedlove>
+* 2fc63f3 (N) - updates composer.lock to use  most recent commit (2012-10-22) <Micah Breedlove>
+* 980cb24 (N) - Updates SismoPlugin to include short sha on status messages (2012-10-22) <Micah Breedlove>
+* 6f6b571 (N) - updates VolcanoDI container to get fresh instances of Sismo with each call to getSismo() (2012-10-21) <Micah Breedlove>
+* 06c30e0 (N) - updates readme (2012-10-21) <Micah Breedlove>
+* 2581436 (N) - SismoPlugin for Philip is now working -- not to get the reverse working (2012-10-21) <Micah Breedlove>
+* e1dc1d5 (N) - updates plugin to remove un-needed variables (2012-10-19) <Micah Breedlove>
+* be335e0 (N) - SismoPlugin is now working (2012-10-19) <Micah Breedlove>
+* 60066b1 (N) - sismo:status subcommand works (2012-10-19) <Micah Breedlove>
+* 2d6acd3 (N) - updates composer.json (2012-10-19) <Micah Breedlove>
+* 21e214d (N) - Eyjafjallajokull becomes Whitecap :: another round of updates (2012-10-19) <Micah Breedlove>
+* da8b6b3 (N) - added comment due to less-than-stellar way to handle transaction (2012-10-18) <Micah Breedlove>
+* 193266c (N) - updated version number -- whatever (2012-10-18) <Micah Breedlove>
+* 6d69ad6 (N) - philip:start and philip:stop work (provided @epochblue accepts my pull-request) (2012-10-18) <Micah Breedlove>
+* 051a943 (N) - philip start works. Composer updates (2012-10-18) <Micah Breedlove>
+* 1b8a54a (N) - adds new console commands (2012-10-10) <Micah Breedlove>
+* 618ae52 (N) - got some of the console stuff working the way i wanted it too (2012-10-10) <Micah Breedlove>
+* 61d0f23 (N) - adds more to framework (2012-10-09) <Micah Breedlove>
+* fb34ffa (N) - adds sismo into the fold (2012-10-09) <Micah Breedlove>
+* 8047f9d (N) - includes silex in composer json (2012-10-08) <Micah Breedlove>
+* a2d0ec0 (N) - added branch alias to composer.json (2012-10-08) <Micah Breedlove>
+* c2b5dc2 (N) - Ground work for project set. Adds composer.json (2012-10-08) <Micah Breedlove>
+* 9bbd62f (N) - Initial commit (2012-10-08) <Micah Breedlove>
