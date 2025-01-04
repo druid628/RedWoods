@@ -1,0 +1,18 @@
+<?php
+
+return array(
+    "server"          => "irc.freenode.net",
+    "port"            => 6667,
+    "username"        => "ioBot",
+    "realname"        => "iostudio IRC Bot",
+    "nick"            => "iobot",
+    "channels"        => array( '#iostudio-dev', '#iostudio-vip' ),
+    "admins"          => array( 'cubicle17' ),
+    "unflood"         => 500,
+    "debug"           => false,
+    "log"             => __DIR__ . '/iobot.log',
+    "DarkSkyPlugin"   => array(
+        "api_key" => ''
+    )
+);
+

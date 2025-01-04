@@ -1,0 +1,13 @@
+# misc ignore
+.DS_Store
+*.swp
+*.log
+.idea
+*.out
+
+# composer ignores
+composer.phar
+vendor/
+
+# ignore the real config file
+config.php
