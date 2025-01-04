@@ -1,0 +1,13 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: '3306'
+    database_name: odds2
+    database_user: root
+    database_password: caution
+    mailer_transport: sendmail
+    mailer_host: localhost
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 75475f9bbc1c612b9ce0a7f6ca24fd5b
