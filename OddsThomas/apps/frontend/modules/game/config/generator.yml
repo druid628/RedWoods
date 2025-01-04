@@ -1,0 +1,22 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Game
+    theme:                 jroller
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          game
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    config:
+      actions: ~
+      fields:  ~
+      list:   ~
+      filter:  ~
+      form:    ~
+      edit:
+        display: [ team1, team2, active, result ]
+      new:
+        display: [ team1, team2, active ]

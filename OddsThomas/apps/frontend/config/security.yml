@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/08-Security
+sf_guard_user:
+  credentials: [admin, UserAdmin]
+  is_secure: true
+
+sfGuardUser:
+  credentials: [admin, UserAdmin]
+  is_secure: true
+
+sf_guard_group:
+  credentials: [admin, UserAdmin]
+  is_secure: true
+
+sf_guard_permission:
+  credentials: [admin, UserAdmin]
+  is_secure: true
+
+default:
+  is_secure: true

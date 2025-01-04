@@ -1,0 +1,78 @@
+body
+{
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a
+{
+	text-decoration: none;
+	text-shadow: #33ff00 0px 0px 10px;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	text-shadow: #003399 0px 0px 10px;
+}
+
+.oddNavigation
+{
+	background-color: #1009b8;
+	width: 100%;
+	height: 25px;
+	color: #ffffff;
+}
+
+.oddNavigation a
+{
+  font-family: sans-serif;
+  font-size: 4;
+  color: #FFFFFF;
+  display: block;
+  text-decoration: none;
+}
+
+.oddNavigation a:hover
+{
+  text-decoration: underline;
+}
+
+.oddNavigation .oddMenuItem
+{
+	float: left;
+	margin-right: .5em;
+	margin-left: .5em;
+}
+
+.oddNavigation .logout
+{
+ 	right: 1em;
+	float: right;
+	margin-right: 1.2em;
+}
+
+#yourBets
+{
+	border-spacing: 2px;
+	width: 700px;
+}
+
+#yourBets tr
+{
+	background-color: #0099FF;
+}
+
+#yourBets .altRow tr
+{
+	background-color: #CCFFFF !important;
+}
+
+#yourBets td
+{
+	vertical-align: center;
+	text-align: center;
+}
+
+
