@@ -1,0 +1,36 @@
+* 5d501b7 (N) - (HEAD -> master, origin/master, origin/HEAD) updates grails-update to use heredoc -- just looks cleaner (2013-07-12) <Micah Breedlove>
+*   a660b08 (N) - Merge pull request #8 from dalanhurst/master (2012-10-09) <Bill Israel>
+|\  
+| * 89a8d6d (N) - Added some 'm's (2012-10-09) <Doug Hurst>
+| * cebcda3 (N) - Added color, caught interrupt (2012-10-09) <Doug Hurst>
+* | 3054a9d (N) - Added color, and minor modification to search-index (2012-10-09) <Bill Israel>
+* | 911dd29 (N) - Merge pull request #7 from dalanhurst/master (2012-10-09) <Bill Israel>
+|\| 
+| * 735b4b2 (N) - Simple translation of Taroko Gorge into a javascript-looking log output (2012-10-09) <Doug Hurst>
+* | 0c4bf6f (N) - Merge pull request #6 from dalanhurst/master (2012-10-09) <Bill Israel>
+|\| 
+| * 52feb9d (N) - Intercepting interrupts. NOTE: requires pcntl (2012-10-09) <Doug Hurst>
+|/  
+*   f8eff12 (N) - Merge pull request #5 from dalanhurst/master (2012-10-08) <Bill Israel>
+|\  
+| * 8a83d6e (N) - Added colors, entropy (2012-10-08) <Doug Hurst>
+* | 54cf25c (N) - Merge pull request #4 from dalanhurst/master (2012-10-08) <Bill Israel>
+|\| 
+| * 6169da5 (N) - Added web service calls (2012-10-08) <Doug Hurst>
+* | c24120e (N) - Update README.md (2012-10-06) <Bill Israel>
+* | 5f63796 (N) - Merge pull request #3 from dalanhurst/master (2012-10-06) <Bill Israel>
+|\| 
+| * c2b86d0 (N) - Looking busy, PHP-style (2012-10-05) <Doug Hurst>
+|/  
+*   b906207 (N) - Merge pull request #2 from druid628/master (2012-10-05) <Bill Israel>
+|\  
+| * 096aed6 (N) - removed some druid628 specific stuff- cleaned up code a little (2012-10-05) <Micah Breedlove>
+* | a39ebcc (N) - Update README.md (2012-10-05) <Bill Israel>
+* | 38af476 (N) - Merge pull request #1 from druid628/master (2012-10-05) <Bill Israel>
+|\| 
+| * 7a77158 (N) - updates readme (2012-10-05) <Micah Breedlove>
+| * d9de575 (N) - Adds Grails Update look busy script (2012-10-05) <Micah Breedlove>
+|/  
+* 1890c52 (N) - Update README.md (2012-10-05) <Bill Israel>
+* db90f30 (N) - Added README (2012-10-05) <Bill Israel>
+* 48bd833 (N) - Initial commit (2012-10-05) <Bill Israel>

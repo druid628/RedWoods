@@ -1,0 +1,20 @@
+A collection of my dotFiles
+
+Installation
+============
+
+    cd ~
+    git clone git://github.com/druid628/dotDotFiles.git
+    cd dotDotFiles
+    ./install.sh
+
+
+  Quick install
+  -------------
+
+    curl -k https://raw.github.com/druid628/dotDotFiles/master/web_install.sh | bash
+
+  Updates
+  -------------
+    cd ~/dotDotFiles
+    ./update.sh

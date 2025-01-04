@@ -1,0 +1,102 @@
+* a4dd1fa (N) - (HEAD -> master, origin/master, origin/HEAD) last update for dotDotFiles (2013-05-22) <Micah Breedlove>
+* 0d5049e (N) - Minor changes simplified the bashrc (2013-05-22) <Micah Breedlove>
+* cd645b6 (N) - updates to readme (2013-05-22) <Micah Breedlove>
+* 0f649c4 (N) - Logic to make signature file smarter? (2013-05-13) <Micah Breedlove>
+* d6a5d4e (N) - Updates readme (2013-05-10) <Micah Breedlove>
+* e312c10 (N) - git pull now is veddy veddy quiet (2013-05-10) <Micah Breedlove>
+* fd581f4 (N) - fixes issue where erroneously sourcing skel/DOT.colors after install (2013-05-10) <Micah Breedlove>
+* 913dd01 (N) - Adds some life to the otherwise boring dotFiles (2013-05-10) <Micah Breedlove>
+* fe68fdf (N) - Adds Update Script complements of lolcats_aliases (2013-05-10) <Micah Breedlove>
+* 599597d (N) - adds lolcatz ubuntu aliases (2013-05-10) <Micah Breedlove>
+* 0814989 (N) - DocBlock on classpathadd() and vimrc minor changes (2013-05-03) <Micah Breedlove>
+* c51a286 (N) - Adds classpathadd function to bash and a few minor changes (2013-05-03) <Micah Breedlove>
+* 743e3bd (N) - creates git/ for files to be copied rather than symlinked (2013-02-19) <Micah Breedlove>
+* 06c0330 (N) - Adds option for bash_completion in .bash_env (2013-02-19) <Micah Breedlove>
+* 866c56f (N) - == != = (2013-02-19) <Micah Breedlove>
+* 5cde7d7 (N) - update to create symbolic link to dotDotFiles/vim|bin (2013-02-19) <Micah Breedlove>
+* beadb0d (N) - Tmuxalicious now accepts the --list argument (2013-02-01) <Micah Breedlove>
+* 76e10be (N) - oops lost a sudo, have you seen it? (2013-02-01) <Micah Breedlove>
+* 5d5ce5e (N) - adds VimTwig (2013-01-03) <Micah Breedlove>
+* 24fd9ee (N) - now in color (2012-12-05) <Micah Breedlove>
+* 381063f (N) - removed ioBashExtras (2012-12-05) <Micah Breedlove>
+* f10f7aa (N) - updates bash_env and bashrc (2012-12-05) <Micah Breedlove>
+* 9e1198f (N) - removes ioBashExtras (2012-12-05) <Micah Breedlove>
+* 4c7c06a (N) - bash_env changes (2012-12-05) <Micah Breedlove>
+* 212e0db (N) - moves .bash_functions to beginning of bashrc file and cleans up color-prompt PS1 setting (2012-12-05) <Micah Breedlove>
+* 3a2bbe0 (N) - adds include_function_file bash function and updates pathadd to export PATH (2012-12-05) <Micah Breedlove>
+* 1f190ef (N) - removes local_aliases file so it will not be added to HOME as it will be system specific (2012-12-05) <Micah Breedlove>
+*   c92d967 (N) - Merge remote-tracking branch 'origin/master' (2012-12-05) <Micah Breedlove>
+|\  
+| * c1c9cf2 (N) - Added note in bash_aliases (2012-11-30) <Micah Breedlove>
+* | 091ab09 (N) - local_aliases file check now works correctly (2012-12-05) <Micah Breedlove>
+* | d7cd733 (N) - INstall can now configure gitconfig email address (2012-12-05) <Micah Breedlove>
+|/  
+* 45f21fa (N) - updates bash alias to be a little smarter and include a local_aliases (2012-11-30) <Micah Breedlove>
+*   ce21a4f (N) - Merge branch 'master' of github.com:druid628/dotDotFiles (2012-10-05) <Micah Breedlove>
+|\  
+| * b9364bf (N) - adds git alias cr (2012-10-05) <Micah Breedlove>
+* | a9119cd (N) - um yeah? (2012-09-17) <Micah Breedlove>
+|\| 
+| * c46482a (N) - :( i lied (2012-09-17) <Micah Breedlove>
+* | c4ee7b7 (N) - ugh maybe the last commit for the tmux.conf for a while (2012-09-17) <Micah Breedlove>
+|/  
+* 6165f50 (N) - updates to tmux.conf (2012-09-17) <Micah Breedlove>
+* 8526fe9 (N) - added tmux file. (2012-09-17) <Micah Breedlove>
+* d6d42e3 (N) - updates to install.sh and moves svn aliases to their own file because i dont even use them anymore (2012-09-13) <Micah Breedlove>
+* 24f9561 (N) - Update skel/DOT.bash_aliases (2012-09-05) <Micah Breedlove>
+* 18b7ef4 (N) - Update README (2012-09-05) <Micah Breedlove>
+* 827af43 (N) - checks for .vim folder and symlinks it if !exists (2012-09-05) <Micah Breedlove>
+* 1fb7a6c (N) - bash_aliases checks for svn (2012-09-05) <Micah Breedlove>
+* 331dcd0 (N) - Tmuxalicious is now less rigid and more modular (2012-08-08) <Micah Breedlove>
+*   5f64780 (N) - Merge branch 'master' of github.com:druid628/dotDotFiles (2012-08-08) <Micah Breedlove>
+|\  
+| * ec929d2 (N) - adds phpdoc plugin (2012-08-07) <Micah Breedlove>
+| * 3b1965e (N) - finally got stuff working correctly (2012-08-07) <Micah Breedlove>
+| * 9d9abe4 (N) - more webinstall updates (2012-08-07) <Micah Breedlove>
+| * 0077d79 (N) - Update web_install.sh (2012-08-07) <Micah Breedlove>
+| * 36294bb (N) - minor updates to dotFiles (2012-08-07) <Micah Breedlove>
+| * 852b9f4 (N) - updates cTags ctrl-[ ctrl-] now vert splits goto (2012-08-07) <Micah Breedlove>
+| * 5c47187 (N) - Updated ctags adds vert split goto declaration (2012-07-30) <Micah Breedlove>
+| * ef951e3 (N) - Update master (2012-06-29) <Micah Breedlove>
+* | c5d1211 (N) - Adds check for existing session with that name.. wanna attach? (2012-06-08) <Micah Breedlove>
+|/  
+* 6e4a578 (N) - nothing to see here move along small cleanup (2012-06-08) <Micah Breedlove>
+* 6995f3f (N) - Adds Tmuxalicious file for managing tmux envs (2012-06-08) <Micah Breedlove>
+*   8ca4b7b (N) - Merge remote-tracking branch 'origin/master' (2012-06-07) <Micah Breedlove>
+|\  
+| * a318257 (N) - added my-ext-ip command (2012-05-22) <Micah Breedlove>
+| * 498f79e (N) - Bill's Align vim plugin broke my gitconfig (2012-04-04) <Micah Breedlove>
+| * 3774a1a (N) - Makes Rebase sound less scary (2012-03-30) <Micah Breedlove>
+* | 0938a23 (N) - adds getComposer (2012-06-07) <Micah Breedlove>
+|/  
+* d0d7d32 (N) - updated cTags command in vimrc (2012-01-24) <Micah Breedlove>
+* 2a187b0 (N) - vimrc updates (2011-12-28) <Micah Breedlove>
+*   c909b15 (N) - merge (2011-12-28) <Micah Breedlove>
+|\  
+| * 07b89b4 (N) - added CtrlP vim Plugin (2011-12-20) <Micah Breedlove>
+| * 701bd18 (N) - More bash alias fixin (2011-12-20) <Micah Breedlove>
+| * 81b425b (N) - added Pathogen to .vim (2011-12-20) <Micah Breedlove>
+* | 4df5b4a (N) - new changes (2011-12-28) <Micah Breedlove>
+|/  
+* b132cab (N) - adds global git ignore (2011-12-07) <Micah Breedlove>
+* 3196410 (N) - adds makeCtags to bin (2011-12-07) <Micah Breedlove>
+* 2dd9637 (N) - added gnupg vim plugin (2011-12-07) <Micah Breedlove>
+* 4d17c35 (N) - adds groovy support for vi (2011-12-07) <Micah Breedlove>
+* 89978d5 (N) - Updated vimrc and vim plugins (2011-12-07) <Micah Breedlove>
+* 4ee3549 (N) - added install and web_install scripts (2011-11-30) <Micah Breedlove>
+* 350265b (N) - updated vimrc and added colorschemes (2011-10-19) <Micah Breedlove>
+* 856966a (N) - [more updates] added bash_functions file which is sourced in the bash_env file (2011-09-19) <Micah Breedlove>
+* cc7a0a0 (N) - [updates] added Compiz Settings (2011-09-19) <Micah Breedlove>
+* fef16c5 (N) - made some changes (2011-08-04) <Micah Breedlove>
+* aef4782 (N) - change to .vimrc and new sf file (2011-08-01) <Micah Breedlove>
+* 03df9cf (N) - [bin-sf] updated to new mo-better sf file taken from web sf1 & sf2 friendly (2011-07-28) <Micah Breedlove>
+* 76693b9 (N) - [skel] added ErrorChecking to .bash_env (2011-07-25) <Micah Breedlove>
+* 7605976 (N) - added vimrc (2011-07-21) <Micah Breedlove>
+* b031b0f (N) - Minor changes -- nothing to see here (2011-07-21) <Micah Breedlove>
+* 6b0006f (N) - addedColorsOnlyVersion (2011-07-14) <Micah Breedlove>
+* 5ba9db5 (N) - addes ackrc file for ack-grep' (2011-07-13) <Micah Breedlove>
+* d379ea3 (N) - Changes to bash environment  skel files (2011-07-13) <Micah Breedlove>
+* c8f1c39 (N) - Adds lowercase shell function (2011-07-13) <Micah Breedlove>
+* a707b2d (N) - addes netbeans themes (2011-07-12) <Micah Breedlove>
+* 1608594 (N) - Adds a few more aliases and a few symfony and svn files (2011-06-30) <Micah Breedlove>
+* b127ec5 (N) - initial load of files i'm sure more will be to come (2011-06-29) <Micah Breedlove>
