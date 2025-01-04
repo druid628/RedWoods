@@ -1,0 +1,4 @@
+* f4071ab (N) - (HEAD -> master, origin/master, origin/HEAD) added !say command (2012-02-06) <Joshua Estes>
+* 13e2943 (N) - small bug fix, added two new commands !join and !quit (2012-02-06) <Joshua Estes>
+* 078b650 (N) - a few small updates (2012-02-06) <Joshua Estes>
+* 2df394b (N) - initial commit (2012-02-03) <Joshua Estes>

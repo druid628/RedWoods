@@ -1,0 +1,188 @@
+#!/usr/bin/env php
+<?php
+/**
+ * Description
+ *
+ * @package
+ * @subpackage
+ * @author     Joshua Estes <Joshua.Estes@iostudio.com>
+ * @copyright  iostudio 2012
+ * @version    0.1.0
+ * @category
+ * @license
+ *
+ */
+require __DIR__ . '/lib/bootstrap/pBootstrap.php';
+
+class phillip {
+
+    /**
+     *
+     * @var phillip
+     */
+    protected static $instance;
+    /**
+     *
+     * @var sfEventDispatcher
+     */
+    protected $dispatcher;
+    /**
+     *
+     * @var sfServiceContainerBuilder
+     */
+    protected $container;
+    /**
+     *
+     * @var resource
+     */
+    protected $conn;
+
+    /**
+     * 
+     */
+    private function __construct() {
+        $this->dispatcher = new sfEventDispatcher();
+        $this->container = new sfServiceContainerBuilder();
+        $loader = new sfServiceContainerLoaderFileYaml($this->container);
+        $loader->load(__DIR__ . '/lib/config/services.yml');
+        $this->container->addParameters(array(
+          'root_dir' => __DIR__,
+          'src_dir' => __DIR__ . '/src'
+        ));
+    }
+
+    /**
+     * public function the destruct
+     */
+    public function __destruct() {
+//        $this->closeConnection();
+    }
+
+    /**
+     * Get the current connection or create a connection
+     *
+     * @return resource
+     */
+    public function getConnection() {
+        if (null === $this->conn) {
+            if ($this->conn = fsockopen($this->container->getParameter('irc.hostname'), $this->container->getParameter('irc.port'))) {
+                $this->log('Connected to IRC');
+                $this->dispatcher->notify(new sfEvent(null, 'irc.connect', array()));
+            } else {
+                exit();
+            }
+        }
+
+        return $this->conn;
+    }
+
+    /**
+     * Close the IRC connection
+     */
+    public function closeConnection() {
+        if ($this->conn) {
+            $this->log('Closing Connection');
+            fclose(self::getInstance()->getConnection());
+            $this->conn = null;
+            exit();
+        }
+    }
+
+    /**
+     * Singleton, w00t
+     *
+     * @return phillip
+     */
+    public static function getInstance() {
+        if (null === self::$instance) {
+            self::$instance = new phillip();
+        }
+        return phillip::$instance;
+    }
+
+    /**
+     * Returns the container
+     *
+     * @return sfServiceContainerBuilder
+     */
+    public function getContainer() {
+        return $this->container;
+    }
+
+    /**
+     * Returns the event dispatcher
+     *
+     * @return sfEventDispatcher
+     */
+    public function getDispatcher() {
+        return $this->dispatcher;
+    }
+
+    /**
+     * Send command to server
+     *
+     * @param string $cmd
+     */
+    public function sendCommand($cmd) {
+        $this->log($cmd);
+        $cmd .= "\r\n";
+        fwrite($this->getConnection(), $cmd);
+    }
+
+    /**
+     * Send message to STDOUT
+     *
+     * @param string $message
+     */
+    public function log($message) {
+        fwrite(STDOUT, $message . "\n");
+    }
+
+    /**
+     * Starts running phillip
+     */
+    public function run() {
+        foreach ($this->container->getServiceIds() as $id) {
+            /* @var $def sfServiceDefinition */
+            $this->container->getService($id);
+        }
+        do {
+            $raw = trim(fgets($this->getConnection(), 128));
+            if (!strlen($raw)) {
+                continue;
+            }
+            preg_match('/^(?:[:@]([^\s]+) )?([^\s]+)(?: ((?:[^:\s][^\s]* ?)*))?(?: ?:(.*))?$/', $raw, $matches);
+            $message = array(
+              'raw' => $raw,
+              'prefix' => isset($matches[1]) ? $matches[1] : null,
+              'command' => isset($matches[2]) ? $matches[2] : null,
+              'params' => isset($matches[3]) ? $matches[3] : null,
+              'trailing' => isset($matches[4]) ? $matches[4] : null,
+              'nick' => null,
+              'user' => null,
+              'host' => null,
+              'servername' => null,
+            );
+
+            if (null !== $message['prefix']) {
+                if (strpos($message['prefix'], '!') !== false) {
+                    $p = explode('!', $message['prefix']);
+                    $message['nick'] = $p[0];
+                    $p2 = explode('@', $p[1]);
+                    $message['user'] = $p2[0];
+                    $message['host'] = $p2[1];
+                } else {
+                    $message['servername'] = $message['prefix'];
+                }
+            }
+
+            $eventName = sprintf('server.command.%s', strtoupper($message['command']));
+            $this->log('Dispatching: ' . $eventName . ' RAW-> ' . $message['raw']);
+            $this->dispatcher->notify(new sfEvent($this, $eventName, $message));
+        }
+        while (true);
+    }
+
+}
+
+phillip::getInstance()->run();

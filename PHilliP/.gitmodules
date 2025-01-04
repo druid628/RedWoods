@@ -1,0 +1,9 @@
+[submodule "lib/vendor/dependency-injection"]
+	path = lib/vendor/dependency-injection
+	url = git://github.com/fabpot/dependency-injection.git
+[submodule "lib/vendor/event-dispatcher"]
+	path = lib/vendor/event-dispatcher
+	url = git://github.com/fabpot/event-dispatcher.git
+[submodule "lib/vendor/yaml"]
+	path = lib/vendor/yaml
+	url = git://github.com/fabpot/yaml.git

@@ -1,0 +1,26 @@
+parameters:
+  irc.username: testjbot123
+  irc.realname: "Test jBot"
+  irc.hostname: "chat.freenode.net"
+  irc.port: 6667
+  users.trusted:
+    - f1gm3nt
+    - ChanServ
+    - NickServ
+
+services:
+  phillip.connect:
+    class: phillipConnect
+    file: "%SRC_DIR%/phillipConnect.php"
+  phillip.ping:
+    class: phillipPing
+    file: "%SRC_DIR%/phillipPing.php"
+  phillip.join:
+    class: phillipJoin
+    file: "%SRC_DIR%/phillipJoin.php"
+  phillip.quit:
+    class: phillipQuit
+    file: "%SRC_DIR%/phillipQuit.php"
+  phillip.say:
+    class: phillipSay
+    file: "%SRC_DIR%/phillipSay.php"
