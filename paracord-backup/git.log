@@ -1,0 +1,13 @@
+* 3d7566e (N) - (HEAD -> master, origin/master, origin/HEAD) Fixes issue where SOME enviroments werent using pathadd in bash_env (2013-09-27) <Micah Breedlove>
+* 67accee (N) - adds status function to help dialog (2013-09-27) <Micah Breedlove>
+* 9439981 (N) - moves bash functions to the beginning of bashrc (2013-09-27) <Micah Breedlove>
+* 5da51cc (N) - adds paracord (git) status function also adds a check for ~/.bash_HOSTNAME (2013-09-27) <Micah Breedlove>
+* 7fc08e3 (N) - added if statement around git-achievements (2013-09-13) <Micah Breedlove>
+* 2434ca4 (N) - Update sf (2013-07-29) <Micah Breedlove>
+* 4be711b (N) - Updates bash_functions to inlcude local_functions also adds do_i_have function (2013-07-12) <Micah Breedlove>
+* 8442910 (N) - updated my info in gitconfig (2013-07-09) <Micah Breedlove>
+* 7462f28 (N) - [colors] patched (2013-05-22) <Micah Breedlove>
+* 331b1d7 (N) - Updated to reflect original source (2013-05-22) <Micah Breedlove>
+* 6b84e09 (N) - typo (2013-05-22) <Micah Breedlove>
+* 9e7d300 (N) - updated readme (2013-05-22) <Micah Breedlove>
+* 361950f (N) - Initial Commit (2013-05-22) <Micah Breedlove>
