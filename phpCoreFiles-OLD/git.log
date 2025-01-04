@@ -1,0 +1,34 @@
+* 96fc0a6 (N) - (HEAD -> master, origin/master, origin/HEAD) Updates to String interface including docblocks (2019-12-30) <Micah Breedlove>
+* 0a86172 (N) - Makes sure all Types are final and cleaned up (2019-12-27) <Micah Breedlove>
+* 5461e74 (N) - Adds Dictionary class (2019-12-27) <Micah Breedlove>
+* 62dc3e5 (N) - Renamed Primatives to Type to have less to Ttype. Type was better than P8S (2019-10-28) <Micah Breedlove>
+* c5e65b7 (N) - Adds Magic Getter and Setter Trait (2019-10-10) <Micah Breedlove>
+* de840f4 (N) - Updates tests, Primatives at 100% now (2019-10-09) <Micah Breedlove>
+* 6ad34b0 (N) - Fixes phpunit.xml whitelist (2019-10-09) <Micah Breedlove>
+* ee3c8c0 (N) - Fixes bootstrapping for phpunit (2019-10-09) <Micah Breedlove>
+* 058b6f8 (N) - Removed Deprecated BaseClass628 (2019-10-09) <Micah Breedlove>
+* 9a4a3ad (N) - Updated README and adds some more functionality to HashTable (2019-10-08) <Micah Breedlove>
+* 7a3715d (N) - Corrects Interface on HashTable updates methods (2019-10-08) <Micah Breedlove>
+* b350d94 (N) - refactor!: changed path from lib to src (2019-10-08) <Micah Breedlove>
+* 47a9faf (N) - refactor! & feat: Adds HashTable adds Strict Mode to Array (2019-10-07) <Micah Breedlove>
+* b8ad016 (N) - (tag: v0.1.0) refactor!: changes namespace (2019-10-07) <Micah Breedlove>
+* 1580ae5 (N) - removes hhvm (2018-11-29) <Micah Breedlove>
+* 0e037a5 (N) - Revert "removes composer install -- not sure that was needed" (2018-11-29) <Micah Breedlove>
+* 62d64cc (N) - removes composer install -- not sure that was needed (2018-11-29) <Micah Breedlove>
+* d887bc9 (N) - removes php 7.0 from travis (2018-11-29) <Micah Breedlove>
+* 36cafb4 (N) - adds travis file (2018-11-29) <Micah Breedlove>
+* 58455e9 (N) - More updates and unit tests (2018-11-29) <Micah Breedlove>
+* 6ab58b2 (N) -  * Deprecates BaseClass628  * Adds Primative Objects  * Moves CSV to CSVUtil  * Adds UnitTests (2018-11-28) <Micah Breedlove>
+* e83e4f3 (N) - Adds Primative types String(628) and Array(628) (2018-11-28) <Micah Breedlove>
+* 1f29812 (N) - removed old function (2013-07-22) <Micah Breedlove>
+* 37121f2 (N) - adds array_sum_key function (2012-04-18) <Micah Breedlove>
+* ba6a34f (N) - added csv class (2012-03-07) <Micah Breedlove>
+* 547f5d7 (N) - updated phpdoc for 2 new functions (2012-03-05) <Micah Breedlove>
+* 878d43a (N) - adds handy isCli() and fun formatErrorDOS function (2012-03-05) <Micah Breedlove>
+* 8a71f6f (N) - Updated syntax and added some descriptions for some functions (2012-02-06) <Micah Breedlove>
+* 2fc5059 (N) - added function to test if an array is multidimensional (2012-02-06) <Micah Breedlove>
+* 13c5cc1 (N) - added getPerformance() (2012-01-20) <Micah Breedlove>
+* f686e75 (N) - added Cast function (2012-01-10) <Micah Breedlove>
+* f0c837e (N) - Added as namespace (2012-01-04) <Micah Breedlove>
+* 2bd40f6 (N) - updated readme (2012-01-04) <Micah Breedlove>
+* b857d56 (N) - Initial Commit (2012-01-04) <Micah Breedlove>
