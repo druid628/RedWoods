@@ -1,0 +1,20 @@
+*   b23414d (N) - (HEAD -> master, origin/master, origin/HEAD) Merge remote-tracking branch 'upstream/master' (2011-08-30) <Micah Breedlove>
+|\  
+| * 2402246 (N) - Edited README.md via GitHub (2011-08-30) <Micah Breedlove>
+* | 013044d (N) - Edited README.md via GitHub (2011-08-25) <Micah Breedlove>
+|/  
+* 93ca97c (N) - [rename] removed old cgJson files (2011-08-24) <Micah Breedlove>
+* f139926 (N) - [rename] changed from cgJson to cgGson to be more name appropriate (2011-08-24) <Micah Breedlove>
+* a99f1b1 (N) - [readme] updated to reflect toString method (2011-08-24) <Micah Breedlove>
+*   aa0f097 (N) - Merge remote-tracking branch 'origin/master' (2011-08-24) <Micah Breedlove>
+|\  
+| * d71b786 (N) - [cgJsonAdaptor] removed static modifier from methods (2011-08-22) <Micah Breedlove>
+* | 1a0ed44 (N) - [cgJsonAdaptor] added toString method. (2011-08-24) <Micah Breedlove>
+|/  
+* 6aa65f2 (N) - updates to readme (2011-08-03) <Micah Breedlove>
+* a3e5c42 (N) - updates to readme (2011-08-03) <Micah Breedlove>
+* bf2797f (N) - [README] changing to readme to markdown (2011-08-03) <Micah Breedlove>
+* e5216c4 (N) - [Readme] More changes to readme (2011-08-03) <Micah Breedlove>
+* 9fc7e68 (N) - [README] modified readme to include some usage data (2011-08-03) <Micah Breedlove>
+* b66392f (N) - cleaned up code added javaDoc style comments (2011-08-02) <Micah Breedlove>
+* 510929e (N) - Initial Commit (2011-08-02) <Micah Breedlove>
