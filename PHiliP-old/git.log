@@ -1,0 +1,66 @@
+*   cbb22e8 (N) - (HEAD -> master, origin/master, origin/develop, origin/HEAD) Merge remote-tracking branch 'upstream/master' (2012-03-05) <Micah Breedlove>
+|\  
+| * e9ea6c2 (N) - Now allowing for multiple triggers for a single command (2012-03-04) <Bill Israel>
+| * 5d0e260 (N) - Better room management plugin, other tweaks/fixes (2012-03-04) <Bill Israel>
+| * 38eebdd (N) - Reworked the plugin API a bit (2012-03-01) <Bill Israel>
+| * dec2029 (N) - Added utilities class; fixed bugs (2012-02-26) <Bill Israel>
+| * f403ad9 (N) - Oh, hello mostly-rewritten IRC bot (2012-02-25) <Bill Israel>
+| * 55b245f (N) - Nuking it from orbit; only way to be sure (2012-02-25) <Bill Israel>
+* |   0c629dc (N) - Merge remote-tracking branch 'origin/develop' (2012-02-06) <Micah Breedlove>
+|\ \  
+| * | 72dc865 (N) - Merge remote-tracking branch 'upstream/master' into develop (2012-02-06) <Micah Breedlove>
+| |\| 
+| * | 5398039 (N) - trapperKeepr plugin working now (2012-02-06) <Micah Breedlove>
+| * |   1f4faaf (N) - Merge remote-tracking branch 'upstream/master' into develop (2012-02-06) <Micah Breedlove>
+| |\ \  
+| * \ \   06b8cff (N) - Merge branch 'pullRequest1' into develop (2012-02-06) <Micah Breedlove>
+| |\ \ \  
+| * | | | afddec0 (N) - WIP - added servername to config.ini.example (2012-02-06) <Micah Breedlove>
+| * | | | 4db2382 (N) - WIP - updated a few bugs found (2012-02-06) <Micah Breedlove>
+* | | | |   923dd00 (N) - Merge remote-tracking branch 'upstream/master' (2012-02-06) <Micah Breedlove>
+|\ \ \ \ \  
+| | |_|_|/  
+| |/| | |   
+| * | | | 7b5bd2a (N) - Added Join and Leave plugins (2012-02-06) <Bill Israel>
+| * | | | 90e70bb (N) - Can -> May; lolenglish (2012-02-06) <Bill Israel>
+| * | | | e3ec939 (N) - Added Hello listener plugin to example configuration file (2012-02-06) <Bill Israel>
+| * | | | da967da (N) - Added example Listener, fixed bug with Listeners, fixed other misc bugs (2012-02-06) <Bill Israel>
+| * | | | 9b45670 (N) - Fixed bug that didn't allow parameter-less commands (2012-02-06) <Bill Israel>
+| * | | | 47db27c (N) - Fixed allowed_users bug in Quit plugin (2012-02-06) <Bill Israel>
+| | |_|/  
+| |/| |   
+* | | | 1f31777 (N) - Merge remote-tracking branch 'upstream/master' (2012-02-06) <Micah Breedlove>
+|\| | | 
+| * | |   2ee3756 (N) - Merge pull request #3 from druid628/pullRequest1 (2012-02-06) <Bill Israel>
+| |\ \ \  
+| | * | | 6e62f04 (N) - changing variable names (2012-02-06) <Micah Breedlove>
+| | | |/  
+| | |/|   
+* | | |   e7b6e72 (N) - Merge branch 'pullRequest1' (2012-02-06) <Micah Breedlove>
+|\ \ \ \  
+| | |/ /  
+| |/| /   
+| |_|/    
+|/| |     
+| * | f1d323e (N) - WIP - added servername to config.ini.example (2012-02-06) <Micah Breedlove>
+| * | e51abec (N) - WIP - updated a few bugs found (2012-02-06) <Micah Breedlove>
+| |/  
+* | d969791 (N) - updated my repo to comform with upstream (2012-02-05) <Micah Breedlove>
+* |   e8c0c0a (N) - Merge remote-tracking branch 'origin/master' (2012-02-05) <Micah Breedlove>
+|\ \  
+| |/  
+|/|   
+| * 29826f8 (N) - Adds TrapperKeeper plugin -- does not do anything yet (2012-02-03) <Micah Breedlove>
+* | 388ee36 (N) - Added ability to configure plugins; improved documentation (2012-02-05) <Bill Israel>
+* | 7406b78 (N) - Refactored request/response into objects & supporting changes (2012-02-05) <Bill Israel>
+* | 9c62fce (N) - Renamed classes for upcoming refactor, updated PHPDoc to match (2012-02-05) <Bill Israel>
+* | b2adfcd (N) - Updated config example to include plugins (2012-02-05) <Bill Israel>
+* | 8c52107 (N) - Reorg'd code to use namespaces, moved plugins, changed autoloader (2012-02-04) <Bill Israel>
+* | a53a777 (N) - Passing captured 'parameters' to the plugins' handle method (2012-02-03) <Bill Israel>
+* | 60849e3 (N) - Restructured command heirarchy, other minor clean-up (2012-02-03) <Bill Israel>
+|/  
+*   378f5fe (N) - Merge pull request #1 from joshuamorse/master (2012-02-03) <Bill Israel>
+|\  
+| * 29f7581 (N) - fixed a typo (2012-02-03) <Joshua Morse>
+|/  
+* 51ac1f4 (N) - v0.1 - Initial commit (2012-02-03) <Bill Israel>

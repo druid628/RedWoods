@@ -1,0 +1,46 @@
+*   9b096c5 (N) - (HEAD -> master, origin/master, origin/HEAD) Merge remote-tracking branch 'upstream/master' (2012-11-21) <Micah Breedlove>
+|\  
+| * 089ff2a (N) - Bumped dev-master branch alias (2012-10-28) <Bill Israel>
+| *   417a4c9 (N) - Merge branch 'master' of github.com:epochblue/philip (2012-10-28) <Bill Israel>
+| |\  
+| | * 76169ba (N) - Updated URLs in composer.json (2012-10-22) <Bill Israel>
+| | * 54d7738 (N) - Added branch alias to composer.json (2012-10-22) <Bill Israel>
+| * | 199fe1e (N) - Updating doc blocks (2012-10-28) <Bill Israel>
+| |/  
+* | d7e8907 (N) - merge upstream (2012-10-19) <Micah Breedlove>
+|\| 
+| * 548079c (N) - Futzing (2012-10-19) <Bill Israel>
+| * 86a2db7 (N) - Minor cleanup to writing pidfile (2012-10-19) <Bill Israel>
+| * 430711e (N) - Added getPidfile method (2012-10-19) <Bill Israel>
+| * a625504 (N) - Minor code clean-up and reorg (2012-10-19) <Bill Israel>
+* | d1f70dc (N) - MERGE upstream (2012-10-19) <Micah Breedlove>
+|\| 
+| *   528b067 (N) - Merge pull request #2 from druid628/feature/addsPidSupport (2012-10-19) <Bill Israel>
+| |\  
+| | * 9f96138 (N) - PSR-1 compliance (2012-10-19) <Micah Breedlove>
+| | * 5681ef9 (N) - fixed typo in readme (2012-10-19) <Micah Breedlove>
+| | * 484f5f4 (N) - makes pidfile feature more inline with other features (2012-10-19) <Micah Breedlove>
+| | * f8cc37e (N) - creates a pid file if config['pid'] is set. (2012-10-18) <Micah Breedlove>
+| |/  
+* / 60cb731 (N) - creates a pid file if config['pid'] is set. (2012-10-18) <Micah Breedlove>
+|/  
+* 1616b0d (N) - Fixed typo in plugin loader (2012-10-15) <Bill Israel>
+* 85eaa92 (N) - Shouldn't have changed namespace; reverting change (2012-10-14) <Bill Israel>
+* 747370d (N) - Added Contributors section, updated info (2012-10-12) <Bill Israel>
+* b118ee8 (N) - Updated README for new plugin style (2012-10-12) <Bill Israel>
+* 45b56d4 (N) -  =>  in AbstractPlugin (2012-10-12) <Bill Israel>
+* 5eadaff (N) - Changed vendor to include my 'vendor' name (2012-10-12) <Bill Israel>
+*   a48e005 (N) - Merge pull request #1 from dalanhurst/master (2012-10-12) <Bill Israel>
+|\  
+| * a144b99 (N) - Moved from file-based to class-based plugin loading to ease composition (2012-10-12) <Doug Hurst>
+|/  
+* 90a5753 (N) - Fixed bug in ping responder (2012-10-08) <Bill Israel>
+* 6dec38c (N) - Updated README for new API (2012-10-06) <Bill Israel>
+* 2ea3214 (N) - Updated .gitignore (2012-10-06) <Bill Israel>
+* 0b87dcb (N) - Converted Philip to use the Symfony Event Dispatcher (2012-10-06) <Bill Israel>
+* b0a361f (N) - Updated dependencies (2012-10-06) <Bill Israel>
+* dc853c5 (N) - Added idea project files to gitignore (2012-10-04) <Bill Israel>
+* cdcabd5 (N) - Updated documentation (2012-09-02) <Bill Israel>
+* 2e47bd1 (N) - Added logging via Monolog (2012-09-02) <Bill Israel>
+* 03d4725 (N) - Added Monolog to required libraries (2012-09-02) <Bill Israel>
+* 40bf7ab (N) - Initial commit. (2012-09-01) <Bill Israel>

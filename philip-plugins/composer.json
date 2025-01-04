@@ -1,0 +1,32 @@
+{
+    "name": "druid628/philip-plugins",
+    "description": "Plugins for the Philip IRC bot",
+    "keywords": ["irc", "bot", "dsl", "plugin", "plugins"],
+    "homepage": "https://github.com/epochblue/philip-plugins",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bill Israel",
+            "email": "bill.israel@gmail.com",
+            "homepage": "http://billisrael.info/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "epochblue/darksky-php": "1.0.x"
+    },
+    "require-dev": {
+        "epochblue/philip": "1.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Philip\\Plugin": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}

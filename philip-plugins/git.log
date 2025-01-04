@@ -1,0 +1,60 @@
+*   9d07432 (N) - (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of github.com:druid628/philip-plugins (2012-11-21) <Micah Breedlove>
+|\  
+| * 53a2904 (N) - s/$bot/$config/g (2012-10-23) <Micah Breedlove>
+| * 653cf8f (N) - changed to be my plugins (2012-10-23) <Micah Breedlove>
+| *   97f0e44 (N) - Merge remote-tracking branch 'upstream/master' (2012-10-23) <Micah Breedlove>
+| |\  
+| * | e75a821 (N) - adds demolition man mode to swear jar (2012-10-23) <Micah Breedlove>
+| * | 93f564e (N) - [WIP] Adds EarmuffsPlugin (2012-10-22) <Micah Breedlove>
+* | | b1d4e0b (N) - s/$bot/$config/g (2012-11-21) <Micah Breedlove>
+* | | ef3a195 (N) - changed to be my plugins (2012-11-21) <Micah Breedlove>
+* | | 2ba9f4a (N) - adds demolition man mode to swear jar (2012-11-21) <Micah Breedlove>
+* | | d1113d3 (N) - [WIP] Adds EarmuffsPlugin (2012-11-21) <Micah Breedlove>
+* | | 3e32957 (N) - Moved philip to dev requirements (2012-10-28) <Bill Israel>
+* | | 15c9bd8 (N) - Changed dependencies to stable versions (2012-10-28) <Bill Israel>
+* | | db1de27 (N) - Bumped dev-master branch alias (2012-10-28) <Bill Israel>
+| |/  
+|/|   
+* | f7ed832 (N) - Updated README for DarkSkyPlugin API changes (2012-10-22) <Bill Israel>
+* | b81c431 (N) - DarkSkyPlugin rewrite and expansion (2012-10-22) <Bill Israel>
+|/  
+* 8398b40 (N) - Oops, missed a comma (2012-10-22) <Bill Israel>
+* 1e88e63 (N) - Updated composer.json (2012-10-22) <Bill Israel>
+* 6015fc5 (N) - Updated homepage URL in composer.json (2012-10-22) <Bill Israel>
+* 1ad2326 (N) - Updated README to include DarkSkyPlugin info (2012-10-19) <Bill Israel>
+* 479ebc9 (N) - Added DarkSkyPlugin (2012-10-19) <Bill Israel>
+* db92387 (N) - Updated dependencies and gitignore (2012-10-19) <Bill Israel>
+* 8efa407 (N) - Swear Jar regex tweaking (2012-10-17) <Bill Israel>
+* e4c5b2c (N) - Brought namespaces back in line with mainline Philip (2012-10-14) <Bill Israel>
+* 2b79d0b (N) - Fixed use statements to have correct namespaces (2012-10-12) <Bill Israel>
+* c28724e (N) - Made repo Composer-able (2012-10-12) <Bill Israel>
+* f7a007f (N) - Updated plugins for new Philip API (2012-10-06) <Bill Israel>
+* 6f6679e (N) - Added contributors section to README (2012-10-06) <Bill Israel>
+* 276c976 (N) - Updated documentation (2012-10-06) <Bill Israel>
+* 992d1a9 (N) - Plugin cleanup (2012-10-06) <Bill Israel>
+*   76a81bd (N) - Merge pull request #4 from druid628/master (2012-10-06) <Bill Israel>
+|\  
+| * 5af67d6 (N) - adds \& to channel list and changes to + instead of * (2012-10-05) <Micah Breedlove>
+| * 92241b4 (N) - adds say command to admin plugin (2012-10-05) <Micah Breedlove>
+|/  
+* 2fd5c77 (N) - Better SwearJar regexing (2012-09-21) <Bill Israel>
+*   42c050c (N) - Merge branch 'master' of github.com:epochblue/philip-plugins (2012-09-07) <Bill Israel>
+|\  
+| *   05bd30a (N) - Merge pull request #3 from spiralout/master (2012-09-06) <Bill Israel>
+| |\  
+| | * a597365 (N) - Fixing for PHP 5.3 (2012-09-06) <Sean Crystal>
+| |/  
+* / 39ff6b8 (N) - Fixing last 5.3 issue with CannedResponse (2012-09-07) <Bill Israel>
+|/  
+* 7745435 (N) - Added ImageMe plugin (2012-09-05) <Bill Israel>
+* c4052d1 (N) - Fixed CannedResponsePlugin for 5.3 (2012-09-05) <Bill Israel>
+*   5d0ac99 (N) - Merge pull request #2 from michaelcpuckett/master (2012-09-05) <Bill Israel>
+|\  
+| * ffe9332 (N) - Update SwearJarPlugin.php (2012-09-05) <Michael Puckett>
+|/  
+* 5a2a23f (N) - CannedResponse reorganizing (2012-09-05) <Bill Israel>
+*   55cb7f6 (N) - Merge pull request #1 from spiralout/master (2012-09-05) <Bill Israel>
+|\  
+| * bbb0477 (N) - Initial commit of CannedResponse plugin (2012-09-05) <Sean Crystal>
+|/  
+* 425db9f (N) - Initial commit (2012-09-01) <Bill Israel>
